@@ -13,17 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
+title: Why Acessibility
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  Os porquês de de adotar boas práticas de acessibilidade web
+  tem bom retorno sobre investimento. Liberado sob licença de
+  domínio público. Reuse como quise
+baseurl: "/why-a11y" # the subpath of your site, e.g. /blog
+url: "https://fititnt.github.io" # the base hostname & protocol for your site
+twitter_username: fititnt
+github_username:  fititnt
+github_repository: fititnt/why-a11y
 
 # Build settings
 markdown: kramdown
 theme: minima
+
+# Usado por jekyll-seo-tag
+author:
+  twitter: fititnt
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
